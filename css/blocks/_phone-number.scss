@@ -1,0 +1,19 @@
+.phone-number {
+  font-family: "AlegreyaSans";
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 11px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -17px;
+    background: url("./../../img/phone.png") no-repeat;
+  }
+}

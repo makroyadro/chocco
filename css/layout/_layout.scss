@@ -1,0 +1,45 @@
+html, body, .wrapper {
+  height: 100%;
+}
+
+.section {
+  height: 100vh;
+  &__main {
+    color: #ffffff;
+    background-color: #61c4d9;
+    background-image: 
+      url("./../../img/leaves.png"),
+      url("./../../img/berries.png"),
+      url("./../../img/candy-bars.png"),
+      url("./../../img/main-patern.png");
+    background-position: 
+      right bottom -54px, 
+      right bottom -38px, 
+      center right, 
+      center right;
+    background-repeat: no-repeat;
+  } 
+
+  &__why {
+    background-image: 
+      url("./../../img/leaves.png"),
+      url("./../../img/berries.png");
+    background-position: 
+      right top -298px, 
+      right top -249px;
+    background-repeat: no-repeat;
+  }
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  
+  &__main {
+    max-width: 940px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

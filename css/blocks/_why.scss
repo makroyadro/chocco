@@ -1,0 +1,23 @@
+.why {
+  &__desc {
+    padding-top: 100px;
+  }
+
+  &__title {
+    font-family: "AlegreyaSans";
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #0d0d0d;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    width: 410px;
+    margin: 0 auto;
+    font-family: "AlegreyaSans";
+    font-size: 18px;
+    text-align: center;
+    color: #666666;
+  }
+}

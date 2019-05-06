@@ -1,0 +1,18 @@
+.btn {
+  display: block;
+  width: 156px;
+  height: 58px;
+  font-family: "AlegreyaSans";
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 58px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 30px;
+  
+  &__main-content {
+    color: #0f5a47;
+    background-color: #ffffff;
+  }
+}

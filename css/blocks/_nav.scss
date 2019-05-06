@@ -1,0 +1,16 @@
+.nav {
+  &__list {
+    display: flex;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 25px;
+  }
+
+  &__link {
+    font-family: "AlegreyaSans";
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}

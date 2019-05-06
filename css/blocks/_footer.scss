@@ -1,0 +1,25 @@
+.footer {
+  margin-bottom: 46px;
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 47px;
+  }
+
+  &__item-logo {
+    margin-right: 9px;
+  }
+  
+  &__item-desc {
+    max-width: 84px;
+    font-family: "AlegreyaSans";
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,15 @@
+.main-content {
+  &__title {
+    width: 404px;
+    font-family: "AlegreyaSans";
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+  &__desc {
+    width: 345px;
+    font-family: "AlegreyaSans";
+    font-size: 21px;
+  }
+} 
