@@ -33,25 +33,40 @@ html, body, .wrapper {
       bottom -54px left; 
     background-repeat: no-repeat;
   }
+
+  &__reviews {
+    background-image: 
+      url("./../img/strawberry.png"),
+      url("./../img/reviews-berries.png"),
+      url("./../img/reviews-patern.png");
+    background-position: 
+      top 10px right,
+      left bottom -121px,
+      left bottom -189px;
+    background-repeat: no-repeat;
+  }
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 940px;
   margin: 0 auto;
+  height: 100%;
   
   &__main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 940px;
-    height: 100%;
   }
   
   &__why {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 940px;
-    height: 100%;
+  }
+
+  &__reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }

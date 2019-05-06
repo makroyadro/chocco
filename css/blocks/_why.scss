@@ -3,15 +3,6 @@
     // padding-top: 100px;
   }
 
-  &__title {
-    font-family: "AlegreyaSans";
-    font-size: 48px;
-    font-weight: bold;
-    text-align: center;
-    color: #0d0d0d;
-    text-transform: uppercase;
-  }
-
   &__text {
     width: 410px;
     margin: 0 auto;
@@ -55,13 +46,13 @@
     border-radius: 50%;
   }
 
-  &__item-title  {
+  &__item-title {
     margin-top: 35px;
     font-family: "AlegreyaSans";
     font-size: 27px;
     font-weight: bold;
     color: #000000;
-  }
+}
 
   &__item-text {
     max-width: 277px;
