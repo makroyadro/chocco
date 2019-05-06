@@ -1,6 +1,6 @@
 .why {
   &__desc {
-    padding-top: 100px;
+    // padding-top: 100px;
   }
 
   &__title {
@@ -17,6 +17,59 @@
     margin: 0 auto;
     font-family: "AlegreyaSans";
     font-size: 18px;
+    text-align: center;
+    color: #666666;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  &__item:not(:last-child)::after {
+    content: "";
+    display: block;
+    width: 67px;
+    height: 21px;
+    position: absolute;
+    top: 52px;
+    right: -57px;
+    background: url("./../../img/why-list-patern.png") no-repeat;
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 125px;
+    background-color: #f2f5f4;
+    border-radius: 50%;
+  }
+
+  &__item-title  {
+    margin-top: 35px;
+    font-family: "AlegreyaSans";
+    font-size: 27px;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  &__item-text {
+    max-width: 277px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: "AlegreyaSans";
+    font-size: 18px;
+    font-weight: 300;
     text-align: center;
     color: #666666;
   }

@@ -23,10 +23,14 @@ html, body, .wrapper {
   &__why {
     background-image: 
       url("./../../img/leaves.png"),
-      url("./../../img/berries.png");
+      url("./../../img/berries.png"),
+      url("./../../img/why-patern.png"),
+      url("./../../img/raspberries.png");
     background-position: 
       right top -298px, 
-      right top -249px;
+      right top -249px,
+      center left, 
+      bottom -54px left; 
     background-repeat: no-repeat;
   }
 }
@@ -36,10 +40,18 @@ html, body, .wrapper {
   margin: 0 auto;
   
   &__main {
-    max-width: 940px;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 940px;
+    height: 100%;
+  }
+  
+  &__why {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 940px;
+    height: 100%;
   }
 }
