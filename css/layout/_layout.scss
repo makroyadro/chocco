@@ -8,10 +8,10 @@ html, body, .wrapper {
     color: #ffffff;
     background-color: #61c4d9;
     background-image: 
-      url("./../../img/leaves.png"),
-      url("./../../img/berries.png"),
-      url("./../../img/candy-bars.png"),
-      url("./../../img/main-patern.png");
+      url("./../img/leaves.png"),
+      url("./../img/berries.png"),
+      url("./../img/candy-bars.png"),
+      url("./../img/main-patern.png");
     background-position: 
       right bottom -54px, 
       right bottom -38px, 
@@ -22,10 +22,10 @@ html, body, .wrapper {
 
   &__why {
     background-image: 
-      url("./../../img/leaves.png"),
-      url("./../../img/berries.png"),
-      url("./../../img/why-patern.png"),
-      url("./../../img/raspberries.png");
+      url("./../img/leaves.png"),
+      url("./../img/berries.png"),
+      url("./../img/why-patern.png"),
+      url("./../img/raspberries.png");
     background-position: 
       right top -298px, 
       right top -249px,
